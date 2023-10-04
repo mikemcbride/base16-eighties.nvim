@@ -1,4 +1,4 @@
-# base16 Eighties
+# Eighties
 
 A port of the classic base16 eighties theme for neovim. Based off the excellent [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) plugin.
 
@@ -11,13 +11,13 @@ Neovim 0.8.0+
 ## Using `lazy.nvim`
 
 ```lua
-{ "mikemcbride/base16-eighties.nvim", priority = 1000 }
+{ "mikemcbride/eighties.nvim", priority = 1000 }
 ```
 
 ## Using `packer`
 
 ```lua
-use { "mikemcbride/base16-eighties.nvim" }
+use { "mikemcbride/eighties.nvim" }
 ```
 
 # Basic Usage
@@ -25,7 +25,7 @@ use { "mikemcbride/base16-eighties.nvim" }
 Inside `init.lua`
 
 ```lua
-vim.cmd([[colorscheme base16_eighties]])
+vim.cmd([[colorscheme eighties]])
 ```
 
 # Configuration
@@ -34,7 +34,7 @@ Additional settings:
 
 ```lua
 -- Default options:
-require("base16-eighties").setup({
+require("eighties").setup({
   terminal_colors = true, -- add neovim terminal colors
   undercurl = true,
   underline = true,
@@ -57,7 +57,7 @@ require("base16-eighties").setup({
   dim_inactive = false,
   transparent_mode = false,
 })
-vim.cmd("colorscheme base16_eighties")
+vim.cmd("colorscheme eighties")
 ```
 
 **VERY IMPORTANT**: Make sure to call setup() **BEFORE** calling the colorscheme command, to use your custom configs
@@ -69,12 +69,12 @@ vim.cmd("colorscheme base16_eighties")
 You can specify your own palette colors. For example:
 
 ```lua
-require("base16-eighties").setup({
+require("eighties").setup({
     palette_overrides = {
         green = "#990000",
     }
 })
-vim.cmd("colorscheme base16_eighties")
+vim.cmd("colorscheme eighties")
 ```
 
 ### Highlight groups
@@ -83,24 +83,24 @@ If you don't enjoy the current color for a specific highlight group, now you can
 example:
 
 ```lua
-require("base16-eighties").setup({
+require("eighties").setup({
     overrides = {
         SignColumn = {bg = "#ff9900"}
     }
 })
-vim.cmd("colorscheme base16_eighties")
+vim.cmd("colorscheme eighties")
 ```
 
 It also works with treesitter groups and lsp semantic highlight tokens
 
 ```lua
-require("base16-eighties").setup({
+require("eighties").setup({
     overrides = {
         ["@lsp.type.method"] = { bg = "#ff9900" },
         ["@comment.lua"] = { bg = "#000000" },
     }
 })
-vim.cmd("colorscheme base16_eighties")
+vim.cmd("colorscheme eighties")
 ```
 
 Please note that the override values must follow the attributes from the highlight group map, such as:
