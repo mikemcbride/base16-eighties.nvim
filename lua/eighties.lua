@@ -997,6 +997,8 @@ Eighties.setup = function(config)
   Eighties.config = vim.tbl_deep_extend("force", Eighties.config, config or {})
 end
 
+Eighties.colors = get_colors()
+
 --- main load function
 Eighties.load = function()
   if vim.version().minor < 8 then
