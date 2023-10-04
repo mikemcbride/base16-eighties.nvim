@@ -1,6 +1,6 @@
 # Eighties
 
-A port of the classic base16 eighties theme for neovim. Based off the excellent [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) plugin.
+The classic base16-eighties theme, with some slight modifications. Neovim theme is based off the excellent work in the [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) plugin.
 
 # Prerequisites
 
