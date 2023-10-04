@@ -403,20 +403,6 @@ local function get_groups()
     CocWarningHighlight = { link = "EightiesOrangeUnderline" },
     CocInfoHighlight = { link = "EightiesBlueUnderline" },
     CocHintHighlight = { link = "EightiesAquaUnderline" },
-    -- telescope
-    -- old
-    TelescopeNormal = { link = "EightiesFg1" },
-    TelescopeSelection = { link = "EightiesOrangeBold" },
-    TelescopeSelectionCaret = { link = "EightiesRed" },
-    TelescopeMultiSelection = { link = "EightiesGray" },
-    TelescopeBorder = { link = "TelescopeNormal" },
-    TelescopePromptBorder = { link = "TelescopeNormal" },
-    TelescopeResultsBorder = { link = "TelescopeNormal" },
-    TelescopePreviewBorder = { link = "TelescopeNormal" },
-    TelescopeMatching = { link = "EightiesBlue" },
-    TelescopePromptPrefix = { link = "EightiesRed" },
-    TelescopePrompt = { link = "TelescopeNormal" },
-    -- new
     -- telescope.nvim
     TelescopeSelectionCaret = { link = "EightiesGray" },
     TelescopeMultiSelection = { link = "EightiesGray" },

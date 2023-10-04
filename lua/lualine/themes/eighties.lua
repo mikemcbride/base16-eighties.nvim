@@ -1,4 +1,5 @@
-local colors = require("eighties").get_colors()
+local colors = require("eighties")
+print("eighties colors:" .. colors)
 local eighties = {}
 
 eighties.normal = {
