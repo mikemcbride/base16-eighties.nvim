@@ -119,10 +119,10 @@ Base16Eighties.palette = {
   red = "#f2777a",
   green = "#99cc99",
   yellow = "#ffcc66",
-  blue = "#6699cc",
+  blue = "#72aeea",
   purple = "#cc99cc",
   aqua = "#66cccc",
-  orange = "#f99157",
+  orange = "#f9a170",
   gray = "#a09f93",
 }
 
